@@ -29,27 +29,31 @@ Console.Write("| Espécie: ");
 Console.ForegroundColor = ConsoleColor.Blue;
 Console.Write(especie.Trim().ToUpper().PadLeft(15, '.').Substring(0, 15));
 Console.ForegroundColor = ConsoleColor.DarkGray;
+
 Console.Write(" | Raça: ");
 Console.ForegroundColor = ConsoleColor.Blue;
 Console.Write(raca.Trim().ToUpper().PadLeft(23, '.').Substring(0, 23));
 Console.ForegroundColor = ConsoleColor.DarkGray;
+
 Console.WriteLine(" |");
 
 Console.Write("| Apelido: ");
 Console.ForegroundColor = ConsoleColor.Blue;
 Console.Write(nome.Trim().ToUpper().PadLeft(15, '.').Substring(0, 15));
 Console.ForegroundColor = ConsoleColor.DarkGray;
+
 Console.Write(" | Idade: ");
 Console.ForegroundColor = ConsoleColor.Blue;
 Console.Write(idade.Trim().ToUpper().PadLeft(22, '.').Substring(0, 22));
 Console.ForegroundColor = ConsoleColor.DarkGray;
 Console.WriteLine(" |");
+
 Console.Write("| Pelagem: ");
 Console.ForegroundColor = ConsoleColor.Blue;
 Console.Write(pelagem.Trim().ToUpper().PadLeft(15, '.').Substring(0, 15));
 Console.ForegroundColor = ConsoleColor.DarkGray;
-Console.WriteLine(" |");
 
+Console.WriteLine(" |");
 Console.WriteLine("+==========================================================+");
 
 
